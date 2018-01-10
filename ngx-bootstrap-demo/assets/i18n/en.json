@@ -1,0 +1,15 @@
+{
+    "FORM": {
+        "TABTITLE": "component with form",
+        "ZAMODP": "Profession liability insurance",
+        "OBODP": "Civic liability insurance",
+        "JMENO": "First Name",
+        "PRIJMENI": "Last Name",
+        "SUBMIT": "Compare insurance offers",
+        "VALID": "Is form valid?"
+    },
+    "TRANS": {
+        "TABTITLE": "localisation with {{value}}",
+        "HELLO": "Welcome to my Angular application!<br><strong>This is an amazing app which uses the latest technologies!</strong>"
+    }    
+}

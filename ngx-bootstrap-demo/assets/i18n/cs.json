@@ -1,0 +1,15 @@
+{
+    "FORM": {
+        "TABTITLE": "komponenta s formulářem",
+        "ZAMODP": "Pojištění odpovědnosti za škodu zaměstnance",
+        "OBODP": "Pojištění odpovědnosti v občanském životě",
+        "JMENO": "Jméno",
+        "PRIJMENI": "Příjmení",
+        "SUBMIT": "Srovnat nabídky pojišťoven",
+        "VALID": "Je formulář platný?"
+    },
+    "TRANS": {
+        "TABTITLE": "lokalizace s {{value}}",
+        "HELLO": "Vítejte v mé Angular aplikaci!<br><strong>Je to úžasná appka, která využívá nejnovější technologie!</strong>"
+    }    
+}
