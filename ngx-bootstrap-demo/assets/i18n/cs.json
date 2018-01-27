@@ -3,13 +3,83 @@
         "TABTITLE": "komponenta s formulářem",
         "ZAMODP": "Pojištění odpovědnosti za škodu zaměstnance",
         "OBODP": "Pojištění odpovědnosti v občanském životě",
-        "JMENO": "Jméno",
-        "PRIJMENI": "Příjmení",
+        "JMENO": {
+	        "LABEL": "Jméno",
+	        "PLACEHOLDER": "např. Jan",
+	        "HINT": "Vyplňte jméno podle skutečnosti."
+		},
+        "PRIJMENI": {
+	        "LABEL": "Příjmení",
+	        "PLACEHOLDER": "např. Novák",
+	        "HINT": ""
+		},
+        "PSC": {
+	        "LABEL": "PSČ",
+	        "PLACEHOLDER": "např. 15500",
+	        "HINT": ""
+		},
+        "OBECID": {
+	        "LABEL": "Obec",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "OBEC": {
+	        "LABEL": "",
+	        "PLACEHOLDER": "např. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Ulice",
+	        "PLACEHOLDER": "např. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "č.p./č.or.",
+	        "PLACEHOLDER": "např. 92/11",
+	        "HINT": ""
+		},	
+        "POCATEK": {
+	        "LABEL": "Počátek pojištění",
+	        "PLACEHOLDER": "např. 20.12.2018",
+	        "HINT": "Počátek Hint"
+		},
+        "COUNTRY": {
+	        "LABEL": "Země",
+	        "PLACEHOLDER": "",
+	        "HINT": "Země Hint"
+		},
+        "CITY": {
+	        "LABEL": "Obec",
+	        "PLACEHOLDER": "",
+	        "HINT": "Obec Hint"
+		},
+        "ZNACKA": {
+	        "LABEL": "Značka",
+			"PLACEHOLDER": "",
+	        "HINT": "značka Hint"
+		},		
+        "MODEL": {
+	        "LABEL": "Model",
+			"PLACEHOLDER": "",
+	        "HINT": "model Hint"
+		},
+        "SELECT" : {
+	        "DEFAULT": "Vyberte prosím z nabídky",
+	        "SEARCHTEXT": "Napište pár znaků...",
+	        "NOTFOUND": "Žádná položka"	        
+		},
         "SUBMIT": "Srovnat nabídky pojišťoven",
-        "VALID": "Je formulář platný?"
+        "VALID": "Je formulář platný?",
+        "VALIDATION" : {
+	        "REQUIRED": "Vyplňte prosím toto pole."
+		},        
+        "SUBMITTED": "Byl formulář odeslán?"
     },
     "TRANS": {
         "TABTITLE": "lokalizace s {{value}}",
         "HELLO": "Vítejte v mé Angular aplikaci!<br><strong>Je to úžasná appka, která využívá nejnovější technologie!</strong>"
-    }    
+    },
+    "ADRESA": {
+        "TABTITLE": "Adresa"
+    }          
 }

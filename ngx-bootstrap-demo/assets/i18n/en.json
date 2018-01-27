@@ -3,13 +3,83 @@
         "TABTITLE": "component with form",
         "ZAMODP": "Profession liability insurance",
         "OBODP": "Civic liability insurance",
-        "JMENO": "First Name",
-        "PRIJMENI": "Last Name",
+        "JMENO": {
+	        "LABEL": "First Name",
+	        "PLACEHOLDER": "eg. John",
+	        "HINT": "first name Hint"
+		},        
+        "PRIJMENI": {
+	        "LABEL": "Last Name",
+	        "PLACEHOLDER": "eg. Doe",	        
+	        "HINT": "Last Name Hint"
+		},
+        "PSC": {
+	        "LABEL": "ZIP code",
+	        "PLACEHOLDER": "eg. 14800",
+	        "HINT": ""
+		},		
+        "OBECID": {
+	        "LABEL": "Place",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "OBEC": {
+	        "LABEL": "",
+	        "PLACEHOLDER": "eg. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Street",
+	        "PLACEHOLDER": "eg. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "Number",
+	        "PLACEHOLDER": "eg. 92/11",
+	        "HINT": ""
+		},		
+        "POCATEK": {
+	        "LABEL": "Beginning",
+	        "PLACEHOLDER": "např. 20.12.2018",
+	        "HINT": "beginning Hint"
+		},		
+        "COUNTRY": {
+	        "LABEL": "Country",
+	        "PLACEHOLDER": "",
+	        "HINT": "country Hint"
+		},
+        "CITY": {
+	        "LABEL": "City",
+	        "PLACEHOLDER": "",
+	        "HINT": "city Hint"
+		},
+        "ZNACKA": {
+	        "LABEL": "Manufacturer",
+			"PLACEHOLDER": "",
+	        "HINT": "manufacturer Hint"
+		},		
+        "MODEL": {
+	        "LABEL": "Model",
+			"PLACEHOLDER": "",
+	        "HINT": "model Hint"
+		},
+        "SELECT" : {
+	        "DEFAULT": "Please, select an option",
+	        "SEARCHTEXT": "Type to search...",
+	        "NOTFOUND": "No option found"
+		},	
         "SUBMIT": "Compare insurance offers",
-        "VALID": "Is form valid?"
+        "VALID": "Is form valid?",
+        "VALIDATION" : {
+	        "REQUIRED": "This field is required"
+		},
+        "SUBMITTED": "Is form submitted?"
     },
     "TRANS": {
         "TABTITLE": "localisation with {{value}}",
         "HELLO": "Welcome to my Angular application!<br><strong>This is an amazing app which uses the latest technologies!</strong>"
-    }    
+    },
+    "ADRESA": {
+        "TABTITLE": "Address"
+    }        
 }
