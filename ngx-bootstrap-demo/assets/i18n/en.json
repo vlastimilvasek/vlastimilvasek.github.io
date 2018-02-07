@@ -3,19 +3,21 @@
         "TABTITLE": "component with form",
         "ZAMODP": "Profession liability insurance",
         "OBODP": "Civic liability insurance",
+        "ANO": "Yes",
+        "NE": "No",        
         "JMENO": {
 	        "LABEL": "First Name",
-	        "PLACEHOLDER": "eg. John",
+	        "PLACEHOLDER": "e.g. John",
 	        "HINT": "first name Hint"
 		},        
         "PRIJMENI": {
 	        "LABEL": "Last Name",
-	        "PLACEHOLDER": "eg. Doe",	        
+	        "PLACEHOLDER": "e.g. Doe",	        
 	        "HINT": "Last Name Hint"
 		},
         "PSC": {
 	        "LABEL": "ZIP code",
-	        "PLACEHOLDER": "eg. 14800",
+	        "PLACEHOLDER": "e.g. 14800",
 	        "HINT": ""
 		},		
         "OBECID": {
@@ -25,17 +27,17 @@
 		},
         "OBEC": {
 	        "LABEL": "",
-	        "PLACEHOLDER": "eg. Praha",
+	        "PLACEHOLDER": "e.g. Praha",
 	        "HINT": ""
 		},
         "ULICE": {
 	        "LABEL": "Street",
-	        "PLACEHOLDER": "eg. Podhorská",
+	        "PLACEHOLDER": "e.g. Podhorská",
 	        "HINT": ""
 		},		
         "CP": {
 	        "LABEL": "Number",
-	        "PLACEHOLDER": "eg. 92/11",
+	        "PLACEHOLDER": "e.g. 92/11",
 	        "HINT": ""
 		},		
         "POCATEK": {
@@ -80,6 +82,77 @@
         "HELLO": "Welcome to my Angular application!<br><strong>This is an amazing app which uses the latest technologies!</strong>"
     },
     "ADRESA": {
-        "TABTITLE": "Address"
-    }        
+        "TABTITLE": "Address",
+        "PSC": {
+	        "LABEL": "ZIP code",
+	        "PLACEHOLDER": "e.g. 14800",
+	        "HINT": ""
+		},		
+        "OBEC": {
+	        "LABEL": "Place",
+	        "PLACEHOLDER": "e.g. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Street",
+	        "PLACEHOLDER": "e.g. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "Number",
+	        "PLACEHOLDER": "e.g. 92/11",
+	        "HINT": ""
+		} 
+    },
+    "ADRESA2": {
+        "TABTITLE": "Address - former"
+    },
+    "POJISTNIK": {
+        "TABTITLE": "Policyholder",
+        "TYP": {
+	        "LABEL": "Policyholder",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},        
+        "TITUL": {
+	        "LABEL": "Title",
+	        "PLACEHOLDER": "e.g. Mgr.",
+	        "HINT": ""
+		},
+        "TITUL_ZA": {
+	        "LABEL": "Title after name",
+	        "PLACEHOLDER": "e.g. Ph.D.",
+	        "HINT": ""
+		},		   
+        "JMENO": {
+	        "LABEL": "First Name",
+	        "PLACEHOLDER": "e.g. John",
+	        "HINT": "first name Hint"
+		},        
+        "PRIJMENI": {
+	        "LABEL": "Last Name",
+	        "PLACEHOLDER": "e.g. Doe",	        
+	        "HINT": "Last Name Hint"
+		},
+        "EMAIL": {
+	        "LABEL": "Email",
+	        "PLACEHOLDER": "e.g. info@srovnavac.cz",
+	        "HINT": ""
+		},
+		"RC": {
+	        "LABEL": "Personal ID",
+	        "PLACEHOLDER": "e.g. 7708071234",
+	        "HINT": ""
+		},
+        "TELEFON": {
+	        "LABEL": "Phone",
+	        "PLACEHOLDER": "e.g. 603 929 233",
+	        "HINT": ""
+		},			
+        "KADRESA": {
+	        "LABEL": "Different correspondence address?",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		} 
+    }         
 }
