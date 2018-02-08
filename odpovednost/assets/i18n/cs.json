@@ -1,0 +1,158 @@
+{
+    "FORM": {
+        "TABTITLE": "komponenta s formulářem",
+        "ZAMODP": "Pojištění odpovědnosti za škodu zaměstnance",
+        "OBODP": "Pojištění odpovědnosti v občanském životě",
+        "ANO": "Ano",
+        "NE": "Ne",
+        "JMENO": {
+	        "LABEL": "Jméno",
+	        "PLACEHOLDER": "např. Jan",
+	        "HINT": "Vyplňte jméno podle skutečnosti."
+		},
+        "PRIJMENI": {
+	        "LABEL": "Příjmení",
+	        "PLACEHOLDER": "např. Novák",
+	        "HINT": ""
+		},
+        "PSC": {
+	        "LABEL": "PSČ",
+	        "PLACEHOLDER": "např. 15500",
+	        "HINT": ""
+		},
+        "OBECID": {
+	        "LABEL": "Obec",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "OBEC": {
+	        "LABEL": "",
+	        "PLACEHOLDER": "např. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Ulice",
+	        "PLACEHOLDER": "např. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "č.p./č.or.",
+	        "PLACEHOLDER": "např. 92/11",
+	        "HINT": ""
+		},	
+        "POCATEK": {
+	        "LABEL": "Počátek pojištění",
+	        "PLACEHOLDER": "např. 20.12.2018",
+	        "HINT": "Počátek Hint"
+		},
+        "COUNTRY": {
+	        "LABEL": "Země",
+	        "PLACEHOLDER": "",
+	        "HINT": "Země Hint"
+		},
+        "CITY": {
+	        "LABEL": "Obec",
+	        "PLACEHOLDER": "",
+	        "HINT": "Obec Hint"
+		},
+        "ZNACKA": {
+	        "LABEL": "Značka",
+			"PLACEHOLDER": "",
+	        "HINT": "značka Hint"
+		},		
+        "MODEL": {
+	        "LABEL": "Model",
+			"PLACEHOLDER": "",
+	        "HINT": "model Hint"
+		},
+        "SELECT" : {
+	        "DEFAULT": "Vyberte prosím z nabídky",
+	        "SEARCHTEXT": "Napište pár znaků...",
+	        "NOTFOUND": "Žádná položka"	        
+		},
+        "SUBMIT": "Srovnat nabídky pojišťoven",
+        "VALID": "Je formulář platný?",
+        "VALIDATION" : {
+	        "REQUIRED": "Vyplňte prosím toto pole."
+		},        
+        "SUBMITTED": "Byl formulář odeslán?"
+    },
+    "TRANS": {
+        "TABTITLE": "lokalizace s {{value}}",
+        "HELLO": "Vítejte v mé Angular aplikaci!<br><strong>Je to úžasná appka, která využívá nejnovější technologie!</strong>"
+    },
+    "ADRESA": {
+        "TABTITLE": "Adresa",
+        "PSC": {
+	        "LABEL": "PSČ",
+	        "PLACEHOLDER": "např. 15500",
+	        "HINT": ""
+		},
+        "OBEC": {
+	        "LABEL": "Obec",
+	        "PLACEHOLDER": "např. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Ulice",
+	        "PLACEHOLDER": "např. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "č.p./č.or.",
+	        "PLACEHOLDER": "např. 92/11",
+	        "HINT": ""
+		}   
+    },
+    "ADRESA2": {
+        "TABTITLE": "Adresa - původní"
+    },
+    "POJISTNIK": {
+        "TABTITLE": "Pojistník",
+        "TYP": {
+	        "LABEL": "Pojistník",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "TITUL": {
+	        "LABEL": "Titul",
+	        "PLACEHOLDER": "např. Ing.",
+	        "HINT": ""
+		},
+        "TITUL_ZA": {
+	        "LABEL": "Titul za jménem",
+	        "PLACEHOLDER": "např. Ph.D.",
+	        "HINT": ""
+		},
+        "JMENO": {
+	        "LABEL": "Jméno",
+	        "PLACEHOLDER": "např. Jan",
+	        "HINT": "Vyplňte jméno podle skutečnosti."
+		},
+        "PRIJMENI": {
+	        "LABEL": "Příjmení",
+	        "PLACEHOLDER": "např. Novák",
+	        "HINT": ""
+		},
+        "EMAIL": {
+	        "LABEL": "Email",
+	        "PLACEHOLDER": "např. info@srovnavac.cz",
+	        "HINT": ""
+		},
+		"RC": {
+	        "LABEL": "Rodné číslo",
+	        "PLACEHOLDER": "např. 7708071234",
+	        "HINT": "Zadejte bez lomítka, pouze 9 nebo 10 číslic. Není-li RČ přiděleno, poslední 4 číslice zadejte 9999."
+		},
+        "TELEFON": {
+	        "LABEL": "Telefon",
+	        "PLACEHOLDER": "např. 603 929 233",
+	        "HINT": "Zadejte jako 9 číslic. V případě nestandardního čísla (např. se zahraniční předvolbou), uveďte dále do poznámky."
+		},		
+        "KADRESA": {
+	        "LABEL": "Odlišná korespondenční adresa?",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		}	  
+    }             
+}

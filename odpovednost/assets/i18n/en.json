@@ -1,0 +1,158 @@
+{
+    "FORM": {
+        "TABTITLE": "component with form",
+        "ZAMODP": "Profession liability insurance",
+        "OBODP": "Civic liability insurance",
+        "ANO": "Yes",
+        "NE": "No",        
+        "JMENO": {
+	        "LABEL": "First Name",
+	        "PLACEHOLDER": "e.g. John",
+	        "HINT": "first name Hint"
+		},        
+        "PRIJMENI": {
+	        "LABEL": "Last Name",
+	        "PLACEHOLDER": "e.g. Doe",	        
+	        "HINT": "Last Name Hint"
+		},
+        "PSC": {
+	        "LABEL": "ZIP code",
+	        "PLACEHOLDER": "e.g. 14800",
+	        "HINT": ""
+		},		
+        "OBECID": {
+	        "LABEL": "Place",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "OBEC": {
+	        "LABEL": "",
+	        "PLACEHOLDER": "e.g. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Street",
+	        "PLACEHOLDER": "e.g. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "Number",
+	        "PLACEHOLDER": "e.g. 92/11",
+	        "HINT": ""
+		},		
+        "POCATEK": {
+	        "LABEL": "Beginning",
+	        "PLACEHOLDER": "např. 20.12.2018",
+	        "HINT": "beginning Hint"
+		},		
+        "COUNTRY": {
+	        "LABEL": "Country",
+	        "PLACEHOLDER": "",
+	        "HINT": "country Hint"
+		},
+        "CITY": {
+	        "LABEL": "City",
+	        "PLACEHOLDER": "",
+	        "HINT": "city Hint"
+		},
+        "ZNACKA": {
+	        "LABEL": "Manufacturer",
+			"PLACEHOLDER": "",
+	        "HINT": "manufacturer Hint"
+		},		
+        "MODEL": {
+	        "LABEL": "Model",
+			"PLACEHOLDER": "",
+	        "HINT": "model Hint"
+		},
+        "SELECT" : {
+	        "DEFAULT": "Please, select an option",
+	        "SEARCHTEXT": "Type to search...",
+	        "NOTFOUND": "No option found"
+		},	
+        "SUBMIT": "Compare insurance offers",
+        "VALID": "Is form valid?",
+        "VALIDATION" : {
+	        "REQUIRED": "This field is required"
+		},
+        "SUBMITTED": "Is form submitted?"
+    },
+    "TRANS": {
+        "TABTITLE": "localisation with {{value}}",
+        "HELLO": "Welcome to my Angular application!<br><strong>This is an amazing app which uses the latest technologies!</strong>"
+    },
+    "ADRESA": {
+        "TABTITLE": "Address",
+        "PSC": {
+	        "LABEL": "ZIP code",
+	        "PLACEHOLDER": "e.g. 14800",
+	        "HINT": ""
+		},		
+        "OBEC": {
+	        "LABEL": "Place",
+	        "PLACEHOLDER": "e.g. Praha",
+	        "HINT": ""
+		},
+        "ULICE": {
+	        "LABEL": "Street",
+	        "PLACEHOLDER": "e.g. Podhorská",
+	        "HINT": ""
+		},		
+        "CP": {
+	        "LABEL": "Number",
+	        "PLACEHOLDER": "e.g. 92/11",
+	        "HINT": ""
+		} 
+    },
+    "ADRESA2": {
+        "TABTITLE": "Address - former"
+    },
+    "POJISTNIK": {
+        "TABTITLE": "Policyholder",
+        "TYP": {
+	        "LABEL": "Policyholder",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		},        
+        "TITUL": {
+	        "LABEL": "Title",
+	        "PLACEHOLDER": "e.g. Mgr.",
+	        "HINT": ""
+		},
+        "TITUL_ZA": {
+	        "LABEL": "Title after name",
+	        "PLACEHOLDER": "e.g. Ph.D.",
+	        "HINT": ""
+		},		   
+        "JMENO": {
+	        "LABEL": "First Name",
+	        "PLACEHOLDER": "e.g. John",
+	        "HINT": "first name Hint"
+		},        
+        "PRIJMENI": {
+	        "LABEL": "Last Name",
+	        "PLACEHOLDER": "e.g. Doe",	        
+	        "HINT": "Last Name Hint"
+		},
+        "EMAIL": {
+	        "LABEL": "Email",
+	        "PLACEHOLDER": "e.g. info@srovnavac.cz",
+	        "HINT": ""
+		},
+		"RC": {
+	        "LABEL": "Personal ID",
+	        "PLACEHOLDER": "e.g. 7708071234",
+	        "HINT": ""
+		},
+        "TELEFON": {
+	        "LABEL": "Phone",
+	        "PLACEHOLDER": "e.g. 603 929 233",
+	        "HINT": ""
+		},			
+        "KADRESA": {
+	        "LABEL": "Different correspondence address?",
+	        "PLACEHOLDER": "",
+	        "HINT": ""
+		} 
+    }         
+}
