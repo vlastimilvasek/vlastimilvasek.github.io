@@ -1,114 +1,114 @@
 {
     "FORM": {
-        "TABTITLE": "komponenta s formulářem",
-        "ZAMODP": "Pojištění odpovědnosti za škodu zaměstnance",
-        "OBODP": "Pojištění odpovědnosti v občanském životě",
-        "ANO": "Ano",
-        "NE": "Ne",
-        "JMENO": {
-	        "LABEL": "Jméno",
-	        "PLACEHOLDER": "např. Jan",
-	        "HINT": "Vyplňte jméno podle skutečnosti."
+        "TABS": {
+	        "ZADANI": "Základní údaje",
+	        "SROVNANI": "Srovnání nabídek",	        
+	        "POJISTKA": "Pojistka",
+	        "OSOBNI": "Osobní údaje",
+	        "SOUHRN": "Rekapitulace"	        	        
 		},
-        "PRIJMENI": {
-	        "LABEL": "Příjmení",
-	        "PLACEHOLDER": "např. Novák",
-	        "HINT": ""
-		},
-        "PSC": {
-	        "LABEL": "PSČ",
-	        "PLACEHOLDER": "např. 15500",
-	        "HINT": ""
-		},
-        "OBECID": {
-	        "LABEL": "Obec",
-	        "PLACEHOLDER": "",
-	        "HINT": ""
-		},
-        "OBEC": {
-	        "LABEL": "",
-	        "PLACEHOLDER": "např. Praha",
-	        "HINT": ""
-		},
-        "ULICE": {
-	        "LABEL": "Ulice",
-	        "PLACEHOLDER": "např. Podhorská",
-	        "HINT": ""
+        "BUTTONS": {     
+	        "SROVNAT": "Srovnat nabídky pojišťoven",
+	        "ZPET": "Zpět",
+	        "DALE": "Pokračovat"	        	        
 		},		
-        "CP": {
-	        "LABEL": "č.p./č.or.",
-	        "PLACEHOLDER": "např. 92/11",
-	        "HINT": ""
-		},	
-        "POCATEK": {
-	        "LABEL": "Počátek pojištění",
-	        "PLACEHOLDER": "např. 20.12.2018",
-	        "HINT": "Počátek Hint"
-		},
-        "COUNTRY": {
-	        "LABEL": "Země",
-	        "PLACEHOLDER": "",
-	        "HINT": "Země Hint"
-		},
-        "CITY": {
-	        "LABEL": "Obec",
-	        "PLACEHOLDER": "",
-	        "HINT": "Obec Hint"
-		},
-        "ZNACKA": {
-	        "LABEL": "Značka",
-			"PLACEHOLDER": "",
-	        "HINT": "značka Hint"
-		},		
-        "MODEL": {
-	        "LABEL": "Model",
-			"PLACEHOLDER": "",
-	        "HINT": "model Hint"
-		},
-        "SELECT" : {
+		"SELECT" : {
 	        "DEFAULT": "Vyberte prosím z nabídky",
 	        "SEARCHTEXT": "Napište pár znaků...",
 	        "NOTFOUND": "Žádná položka"	        
 		},
-        "SUBMIT": "Srovnat nabídky pojišťoven",
-        "VALID": "Je formulář platný?",
         "VALIDATION" : {
 	        "REQUIRED": "Vyplňte prosím toto pole."
-		},        
-        "SUBMITTED": "Byl formulář odeslán?"
+		},
+        "ANO": "Ano",
+        "NE": "Ne"			     
     },
-    "TRANS": {
-        "TABTITLE": "lokalizace s {{value}}",
-        "HELLO": "Vítejte v mé Angular aplikaci!<br><strong>Je to úžasná appka, která využívá nejnovější technologie!</strong>"
-    },
+    "ZADANI": {
+        "POJISTENI": {    
+	        "TITLE": "Jaký druh pojištění potřebujete?"
+		}
+    },  
+    "POJISTKA": {
+        "POJISTENI": {    
+	        "ZAMODP": "Pojištění odpovědnosti zaměstnance",
+	        "OBODP": "Pojištění odpovědnosti v občanském životě"
+		},
+        "POCATEK": {
+	        "LABEL": "Počátek pojištění",
+	        "PLACEHOLDER": "20. 4. 2018",
+	        "HINT": "Zvolte počátek pojištění"
+		},
+        "PC": {
+	        "LABEL": "Minimální pojistná částka",
+			"PLACEHOLDER": "100000",
+	        "HINT": "Zvolte si částku v přibližné výši 4,5 násobku Vaší hrubé mzdy. To je maximum, které po Vás zaměstnavatel může požadovat."
+		},
+        "VEK": {
+	        "LABEL": "Věk pojištěného",
+			"PLACEHOLDER": "40",
+	        "HINT": ""
+		},
+        "POVOLANI": {
+	        "LABEL": "Povolání",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "PROFESE": {
+	        "LABEL": "Profese",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},		
+        "RIZENI_VOZ": {
+	        "LABEL": "Řízení firemního vozidla?",
+			"PLACEHOLDER": "",
+	        "HINT": "Má pojištění krýt i škody související s provozem služebního vozu?"
+		},
+        "RIZENI_SOU": {
+	        "LABEL": "Užití vozidla i pro soukromé cesty?",
+			"PLACEHOLDER": "",
+	        "HINT": "Má pojištění krýt i škody související s provozem služebního vozu mimo pracovní cesty, při soukromém využití, např. o víkendu?"
+		},
+        "RIZENI_NAKL": {
+	        "LABEL": "Řízení nákladního vozidla?",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "RIZENI_STR": {
+	        "LABEL": "Řízení pracovního stroje?",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "UZ_PLATNOST": {
+	        "LABEL": "Územní platnost",
+			"PLACEHOLDER": "",
+	        "HINT": "",
+	        "EVROPA": "Evropa",
+	        "CR": "ČR"
+		}										
+    },    
     "ADRESA": {
-        "TABTITLE": "Adresa",
-        "PSC": {
+		"PSC": {
 	        "LABEL": "PSČ",
-	        "PLACEHOLDER": "např. 15500",
+	        "PLACEHOLDER": "15500",
 	        "HINT": ""
 		},
         "OBEC": {
 	        "LABEL": "Obec",
-	        "PLACEHOLDER": "např. Praha",
+	        "PLACEHOLDER": "Praha",
 	        "HINT": ""
 		},
         "ULICE": {
 	        "LABEL": "Ulice",
-	        "PLACEHOLDER": "např. Podhorská",
+	        "PLACEHOLDER": "Podhorská",
 	        "HINT": ""
 		},		
         "CP": {
 	        "LABEL": "č.p./č.or.",
-	        "PLACEHOLDER": "např. 92/11",
+	        "PLACEHOLDER": "92/11",
 	        "HINT": ""
 		}   
     },
-    "ADRESA2": {
-        "TABTITLE": "Adresa - původní"
-    },
     "POJISTNIK": {
-        "TABTITLE": "Pojistník",
         "TYP": {
 	        "LABEL": "Pojistník",
 	        "PLACEHOLDER": "",
@@ -116,38 +116,38 @@
 		},
         "TITUL": {
 	        "LABEL": "Titul",
-	        "PLACEHOLDER": "např. Ing.",
+	        "PLACEHOLDER": "Ing.",
 	        "HINT": ""
 		},
         "TITUL_ZA": {
 	        "LABEL": "Titul za jménem",
-	        "PLACEHOLDER": "např. Ph.D.",
+	        "PLACEHOLDER": "Ph.D.",
 	        "HINT": ""
 		},
         "JMENO": {
 	        "LABEL": "Jméno",
-	        "PLACEHOLDER": "např. Jan",
+	        "PLACEHOLDER": "Jan",
 	        "HINT": "Vyplňte jméno podle skutečnosti."
 		},
         "PRIJMENI": {
 	        "LABEL": "Příjmení",
-	        "PLACEHOLDER": "např. Novák",
+	        "PLACEHOLDER": "Novák",
 	        "HINT": ""
 		},
         "EMAIL": {
 	        "LABEL": "Email",
-	        "PLACEHOLDER": "např. info@srovnavac.cz",
+	        "PLACEHOLDER": "info@srovnavac.cz",
 	        "HINT": ""
 		},
 		"RC": {
 	        "LABEL": "Rodné číslo",
-	        "PLACEHOLDER": "např. 7708071234",
+	        "PLACEHOLDER": "7708071234",
 	        "HINT": "Zadejte bez lomítka, pouze 9 nebo 10 číslic. Není-li RČ přiděleno, poslední 4 číslice zadejte 9999."
 		},
         "TELEFON": {
 	        "LABEL": "Telefon",
-	        "PLACEHOLDER": "např. 603 929 233",
-	        "HINT": "Zadejte jako 9 číslic. V případě nestandardního čísla (např. se zahraniční předvolbou), uveďte dále do poznámky."
+	        "PLACEHOLDER": "603 929 233",
+	        "HINT": "Zadejte jako 9 číslic. V případě nestandardního čísla (se zahraniční předvolbou), uveďte dále do poznámky."
 		},		
         "KADRESA": {
 	        "LABEL": "Odlišná korespondenční adresa?",
