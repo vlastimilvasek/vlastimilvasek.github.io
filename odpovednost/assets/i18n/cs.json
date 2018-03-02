@@ -134,6 +134,11 @@
 	        "PLACEHOLDER": "Novák",
 	        "HINT": ""
 		},
+        "SPOLECNOST": {
+	        "LABEL": "Název společnosti",
+	        "PLACEHOLDER": "Srovnávač.cz, s.r.o.",
+	        "HINT": ""
+		},		
         "EMAIL": {
 	        "LABEL": "Email",
 	        "PLACEHOLDER": "info@srovnavac.cz",
@@ -142,8 +147,20 @@
 		"RC": {
 	        "LABEL": "Rodné číslo",
 	        "PLACEHOLDER": "7708071234",
-	        "HINT": "Zadejte bez lomítka, pouze 9 nebo 10 číslic. Není-li RČ přiděleno, poslední 4 číslice zadejte 9999."
+	        "HINT": "Zadejte bez lomítka, pouze 9 nebo 10 číslic. Není-li RČ přiděleno, poslední 4 číslice zadejte 9999.",
+	        "REQUIRED": "Zadejte rodné číslo v platném formátu."	
 		},
+		"IC": {
+	        "LABEL": "IČ",
+	        "PLACEHOLDER": "27074358",
+	        "HINT": "Zadejte platné IČ - osm číslic. Můžete ho vyhledat např. v systému ARES.",
+	        "REQUIRED": "Zadejte platné IČ."	        
+		},
+		"PLATCE_DPH": {
+	        "LABEL": "plátce DPH",
+	        "PLACEHOLDER": "",
+	        "HINT": "Zaškrtněte v případě, že se jedná o plátce DPH."	        
+		},				
         "TELEFON": {
 	        "LABEL": "Telefon",
 	        "PLACEHOLDER": "603 929 233",

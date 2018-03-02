@@ -88,6 +88,11 @@
 	        "PLACEHOLDER": "Doe",	        
 	        "HINT": "Last Name Hint"
 		},
+        "SPOLECNOST": {
+	        "LABEL": "Company name",
+	        "PLACEHOLDER": "Srovnávač.cz, s.r.o.",
+	        "HINT": ""
+		},
         "EMAIL": {
 	        "LABEL": "Email",
 	        "PLACEHOLDER": "info@srovnavac.cz",
@@ -96,8 +101,20 @@
 		"RC": {
 	        "LABEL": "Personal ID",
 	        "PLACEHOLDER": "7708071234",
-	        "HINT": ""
+	        "HINT": "Fill in without trailing slash. Foreigners in format: RRMMDD9999.",
+	        "REQUIRED": "Please, fill in in correct format."	        
 		},
+		"IC": {
+	        "LABEL": "IČ",
+	        "PLACEHOLDER": "27074358",
+	        "HINT": "Zadejte platné IČ - osm číslic. Můžete ho vyhledat např. v systému ARES.",
+	        "REQUIRED": "Please, fill in in correct format."	        
+		},
+		"PLATCE_DPH": {
+	        "LABEL": "VAT subject",
+	        "PLACEHOLDER": "",
+	        "HINT": "Check in case of VAT subject."	        
+		},				
         "TELEFON": {
 	        "LABEL": "Phone",
 	        "PLACEHOLDER": "603 929 233",
