@@ -1,17 +1,32 @@
 {
+    "TEXTY": {
+        "PLATBA": {
+	        "1": "roční",
+	        "2": "pololetní",	        
+	        "4": "čtvrtletní"	        	        
+		},
+        "SLEVEL": {
+	        "1": "nízká",
+	        "2": "střední",	        
+	        "3": "vyšší"	        	        
+		},
+        "OBODP": "občanská odpovědnost",
+        "ZAMODP": "odpovědnost zaměstnance"
+    },
     "FORM": {
         "TABS": {
 	        "ZADANI": "Základní údaje",
 	        "SROVNANI": "Srovnání nabídek",	        
-	        "POJISTKA": "Pojistka",
+	        "UDAJE": "Pojistka",
 	        "OSOBNI": "Osobní údaje",
 	        "SOUHRN": "Rekapitulace"	        	        
 		},
         "BUTTONS": {     
 	        "SROVNAT": "Srovnat nabídky pojišťoven",
 	        "ZPET": "Zpět",
-	        "DALE": "Pokračovat"	        	        
-		},		
+	        "DALE": "Pokračovat",
+	        "SJEDNAT": "Sjednat"
+		},
 		"SELECT" : {
 	        "DEFAULT": "Vyberte prosím z nabídky",
 	        "SEARCHTEXT": "Napište pár znaků...",
@@ -21,13 +36,31 @@
 	        "REQUIRED": "Vyplňte prosím toto pole."
 		},
         "ANO": "Ano",
-        "NE": "Ne"			     
+        "NE": "Ne",
+        "KC": "Kč"
     },
     "ZADANI": {
         "POJISTENI": {    
 	        "TITLE": "Jaký druh pojištění potřebujete?"
 		}
-    },  
+    },
+    "SROVNANI": {
+	    "FILTERS": {
+	    	"TITLE": "Filtry a nastavení",
+	    	"PARTNERS": "Pojišťovny",
+	   		"SELECT_ALL": "Vybrat vše",
+	   		"MIN_LIMITS": "Minimální limit plnění",
+	   		"ZDR": "Újma na zdraví a smrt:",
+	   		"MAJ": "Újma na věci, majetku:",
+	   		"SPOLUUC": "Spoluúčast",
+	   		"SPOL_NULL": "pouze bez spoluúčasti",
+	   		"SPOL_MAX": "Přípustná spoluúčast:"
+	    },
+	    "BACK": "Upravit zadání",
+	    "OFFERS_PDF": "Srovnání v PDF",
+        "ZAMODP": "odpovědnost zaměstnance",
+        "OBODP": "občanská odpovědnost"	    
+    },    
     "POJISTKA": {
         "POJISTENI": {    
 	        "ZAMODP": "Pojištění odpovědnosti zaměstnance",
@@ -42,6 +75,11 @@
 	        "LABEL": "Minimální pojistná částka",
 			"PLACEHOLDER": "100000",
 	        "HINT": "Zvolte si částku v přibližné výši 4,5 násobku Vaší hrubé mzdy. To je maximum, které po Vás zaměstnavatel může požadovat."
+		},
+        "PLATBA": {
+	        "LABEL": "Placení pojistného",
+			"PLACEHOLDER": "Vyberte frekvenci placení pojistného. Základní variantou je roční četnost. Pololetní a čtvrtletní nemusí být vždy dostupné, protože pojišťovny stanovují různé limity minimálního pojistného.",
+	        "HINT": ""
 		},
         "VEK": {
 	        "LABEL": "Věk pojištěného",
@@ -85,7 +123,7 @@
 	        "EVROPA": "Evropa",
 	        "CR": "ČR"
 		}										
-    },    
+    },
     "ADRESA": {
 		"PSC": {
 	        "LABEL": "PSČ",

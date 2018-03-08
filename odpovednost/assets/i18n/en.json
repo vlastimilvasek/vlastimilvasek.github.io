@@ -3,14 +3,15 @@
         "TABS": {
 	        "ZADANI": "Basic parameters",
 	        "SROVNANI": "Offers comparison",	        
-	        "POJISTKA": "Insurance",
+	        "UDAJE": "Insurance",
 	        "OSOBNI": "Personal",
 	        "SOUHRN": "Recapitulation"	        	        
 		},
         "BUTTONS": {     
 	        "SROVNAT": "Compare insurance offers",
 	        "ZPET": "Back",
-	        "DALE": "Continue"	        	        
+	        "DALE": "Continue",
+	        "SJEDNAT": "Select"       	        
 		},		
         "SELECT" : {
 	        "DEFAULT": "Please, select an option",
@@ -21,13 +22,31 @@
 	        "REQUIRED": "This field is required"
 		},
         "ANO": "Yes",
-        "NE": "No"		      
+        "NE": "No",
+        "KC": "Czk"        
     },
     "ZADANI": {
         "POJISTENI": {    
 	        "TITLE": "What kind of insurance do you need?"
 		}
-    },     
+    },
+    "SROVNANI": {
+	    "FILTERS": {
+	    	"TITLE": "Filters & settings",
+	    	"PARTNERS": "Partners",
+	   		"SELECT_ALL": "Select all",
+	   		"MIN_LIMITS": "Minimal indemnity",
+	   		"ZDR": "Injury to health and death:",
+	   		"MAJ": "Damage to property:",
+	   		"SPOLUUC": "Participation",
+	   		"SPOL_NULL": "only without participation",
+	   		"SPOL_MAX": "Acceptable participation:"
+	    },
+	    "BACK": "Edit parameters",
+	    "OFFERS_PDF": "Comparison PDF",
+	    "ZAMODP": "Employee liability",
+	    "OBODP": "Civic liability"	    
+    },    
     "POJISTKA": {
         "POJISTENI": {    
 	        "ZAMODP": "Employee liability insurance",
@@ -37,7 +56,54 @@
 	        "LABEL": "Beginning",
 	        "PLACEHOLDER": "20. 4. 2018",
 	        "HINT": "beginning Hint"
-		}
+		},
+        "PC": {
+	        "LABEL": "Minimum insured amount",
+			"PLACEHOLDER": "100000",
+	        "HINT": "Choose an amount of approximately 4.5 times your gross wage. This is the maximum that the employer may require."
+		},
+        "VEK": {
+	        "LABEL": "Age of the Insured",
+			"PLACEHOLDER": "40",
+	        "HINT": ""
+		},
+        "POVOLANI": {
+	        "LABEL": "Job",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "PROFESE": {
+	        "LABEL": "Profession",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},		
+        "RIZENI_VOZ": {
+	        "LABEL": "Driving of company vehicle?",
+			"PLACEHOLDER": "",
+	        "HINT": "Should insurance cover accidents related to the operation of company car?"
+		},
+        "RIZENI_SOU": {
+	        "LABEL": "Vehicle use also for private trips?",
+			"PLACEHOLDER": "",
+	        "HINT": "Should insurance also cover the damage related to the operation of the company car outside of the business use, for private use, eg on the weekend?"
+		},
+        "RIZENI_NAKL": {
+	        "LABEL": "Driving of truck?",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "RIZENI_STR": {
+	        "LABEL": "Driving of working machine?",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},
+        "UZ_PLATNOST": {
+	        "LABEL": "Territorial validity",
+			"PLACEHOLDER": "",
+	        "HINT": "",
+	        "EVROPA": "Europe",
+	        "CR": "ČR"
+		}			
     },
     "ADRESA": {
         "PSC": {
