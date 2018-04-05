@@ -1,11 +1,25 @@
 {
+    "TEXTY": {
+        "PLATBA": {
+	        "1": "yearly",
+	        "2": "half-yearly",	        
+	        "4": "quarterly"	        	        
+		},
+        "SLEVEL": {
+	        "1": "low",
+	        "2": "middle",	        
+	        "3": "high"	        	        
+		},
+        "OBODP": "civic liability",
+        "ZAMODP": "employee liability"
+    },
     "FORM": {
         "TABS": {
 	        "ZADANI": "Basic parameters",
 	        "SROVNANI": "Offers comparison",	        
 	        "UDAJE": "Insurance",
 	        "OSOBNI": "Personal",
-	        "SOUHRN": "Recapitulation"	        	        
+	        "REKAPITULACE": "Recapitulation"	        	        
 		},
         "BUTTONS": {     
 	        "SROVNAT": "Compare insurance offers",
@@ -42,10 +56,16 @@
 	   		"SPOL_NULL": "only without participation",
 	   		"SPOL_MAX": "Acceptable participation:"
 	    },
+	    "TOOLS": {
+	    	"TITLE": "Tools",
+	    	"OFFERS_PDF": "Comparison PDF"
+	    },	  	    
 	    "BACK": "Edit parameters",
-	    "OFFERS_PDF": "Comparison PDF",
 	    "ZAMODP": "Employee liability",
-	    "OBODP": "Civic liability"	    
+	    "OBODP": "Civic liability",
+        "PARTNER": "Insurer",
+        "PRODUKT": "Variant",
+        "SPLATKA": "Payment"	    
     },    
     "POJISTKA": {
         "POJISTENI": {    
@@ -62,6 +82,11 @@
 			"PLACEHOLDER": "100000",
 	        "HINT": "Choose an amount of approximately 4.5 times your gross wage. This is the maximum that the employer may require."
 		},
+        "PLATBA": {
+	        "LABEL": "Payment frequency",
+			"PLACEHOLDER": "",
+	        "HINT": ""
+		},		
         "VEK": {
 	        "LABEL": "Age of the Insured",
 			"PLACEHOLDER": "40",

@@ -16,10 +16,10 @@
     "FORM": {
         "TABS": {
 	        "ZADANI": "Základní údaje",
-	        "SROVNANI": "Srovnání nabídek",	        
+	        "SROVNANI": "Srovnání",
 	        "UDAJE": "Pojistka",
 	        "OSOBNI": "Osobní údaje",
-	        "SOUHRN": "Rekapitulace"	        	        
+	        "REKAPITULACE": "Rekapitulace"
 		},
         "BUTTONS": {     
 	        "SROVNAT": "Srovnat nabídky pojišťoven",
@@ -56,10 +56,16 @@
 	   		"SPOL_NULL": "pouze bez spoluúčasti",
 	   		"SPOL_MAX": "Přípustná spoluúčast:"
 	    },
+	    "TOOLS": {
+	    	"TITLE": "Nástroje",
+	    	"OFFERS_PDF": "Srovnání v PDF"
+	    },	    
 	    "BACK": "Upravit zadání",
-	    "OFFERS_PDF": "Srovnání v PDF",
         "ZAMODP": "odpovědnost zaměstnance",
-        "OBODP": "občanská odpovědnost"	    
+        "OBODP": "občanská odpovědnost",
+        "PARTNER": "Pojišťovna",
+        "PRODUKT": "Produkt",
+        "SPLATKA": "Splátka"
     },    
     "POJISTKA": {
         "POJISTENI": {    
@@ -77,7 +83,7 @@
 	        "HINT": "Zvolte si částku v přibližné výši 4,5 násobku Vaší hrubé mzdy. To je maximum, které po Vás zaměstnavatel může požadovat."
 		},
         "PLATBA": {
-	        "LABEL": "Placení pojistného",
+	        "LABEL": "Platba pojistného",
 			"PLACEHOLDER": "Vyberte frekvenci placení pojistného. Základní variantou je roční četnost. Pololetní a čtvrtletní nemusí být vždy dostupné, protože pojišťovny stanovují různé limity minimálního pojistného.",
 	        "HINT": ""
 		},
