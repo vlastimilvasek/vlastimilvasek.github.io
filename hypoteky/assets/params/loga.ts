@@ -1,4 +1,5 @@
 export const LOGO_200x100 = {
+    'Axa Assistance': 'https://www.srovnavac.cz/images/loga/200x100/axa-assist.png',
     'RB': 'https://www.srovnavac.cz/images/loga/200x100/rb.png',
     'ČSOB': 'https://www.srovnavac.cz/images/loga/200x100/csob-banka.png',
     'HB': 'https://www.srovnavac.cz/images/loga/200x100/hb.png',
