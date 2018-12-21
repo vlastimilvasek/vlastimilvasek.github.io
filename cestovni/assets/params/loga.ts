@@ -4,6 +4,7 @@ export const LOGO_200x100 = {
     'Colonnade': 'https://www.srovnavac.cz/images/loga/200x100/colonnade.png',
     'ČSOB Pojišťovna': 'https://www.srovnavac.cz/images/loga/200x100/csob.png',
     'Direct': 'https://www.srovnavac.cz/images/loga/200x100/direct.png',
+    'Ergo': 'https://www.srovnavac.cz/images/loga/200x100/ergo.png',
     'Generali': 'https://www.srovnavac.cz/images/loga/200x100/generali.png',
     'Kooperativa': 'https://www.srovnavac.cz/images/loga/200x100/koop.png',
     'Allianz': 'https://www.srovnavac.cz/images/loga/200x100/allianz.png',

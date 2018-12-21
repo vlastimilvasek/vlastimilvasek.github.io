@@ -11,7 +11,12 @@
 			"FILTRY": "Filtry",
 			"CLOSE": "Zavřít",
 			"SJEDNAT": "Sjednat",
-	        "SROVNAT": "Srovnat nabídky"
+			"SROVNAT": "Srovnat nabídky",
+			"OFFERS_PDF": "Stáhnout v PDF",
+			"SDILENI": "Sdílet/uložit odkaz na tuto kalkulaci",
+			"EMAIL": "Zaslat na email",
+			"NOVA": "Nová kalkulace",
+			"NOVATIP": "Klepnutím obnovíte výchozí stav formuláře pro novou kalkulaci."
 		},
 		"SELECT" : {
 	        "DEFAULT": "Vyberte prosím z nabídky",
@@ -23,7 +28,8 @@
 	        "RADIOREQUIRED": "Vyberte prosím jednu z voleb.",
 	        "MAX": "Maximální hodnota je {{value}}.",
 	        "MIN": "Minimální hodnota je {{value}}.",
-	        "RANGE": "Povolená hodnota je {{min}} - {{max}}."
+			"RANGE": "Povolená hodnota je {{min}} - {{max}}.",
+			"EMAIL": "Zadejte prosím platnou emailovou adresu."
 		},
         "ANO": "Ano",
         "NE": "Ne",
@@ -76,7 +82,22 @@
 			"PRA": "Pracovní"
 		}		
 	},
-    "SROVNANI": {   
+    "MODAL": {   
+        "SDILENI": {
+			"TITLE": "Sdílejte kalkulaci cestovního pojištění",
+			"PLACEHOLDER": "Odkaz na tuto kalkulaci",
+			"TEXT": "Zkopírujte si odkaz na tuto kalkulaci cestovního pojištění, abyste ji mohli snadno sdílet s&nbsp;ostatními nebo&nbsp;se&nbsp;k&nbsp;ní později sami vrátit."
+		},
+        "EMAIL": {
+			"TITLE": "Kalkulace cestovního pojištění na email",
+			"LABEL": "Emailová adresa",
+			"PLACEHOLDER": "Vaše emailová adresa",
+			"SEND": "Odeslat",
+			"SENT": "Odesláno na Váš email.",
+			"TEXT": "Pošlete si odkaz na tuto kalkulaci cestovního pojištění na Váš email, abyste&nbsp;s&nbsp;k&nbsp;ní mohli později vrátit."
+		}
+    }, 
+	"SROVNANI": {   
 	    "TITLE": "Srovnání cestovního pojištění",
 	    "BACK": "Upravit zadání",
 	    "ALERT": "Srovnání předpokládá optimální výši zabezpečení zástavou a dostatečnou bonitu žadatele. Ověřte:",    
@@ -86,6 +107,9 @@
         "FILTRY": {
         	"HINT": "pro lepší orientaci v nabídkách si můžete vyfiltrovat jen ty odpovídající Vašim potřebám."
 		},
+        "SDILENI": {
+        	"HINT": ""
+		},		
 		"LV": {
         	"TITLE": "Léčebné výlohy",
         	"HINT": "Limit plnění léčebných výloh"
