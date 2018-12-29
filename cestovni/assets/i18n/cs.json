@@ -16,7 +16,7 @@
 			"SDILENI": "Sdílet/uložit odkaz na tuto kalkulaci",
 			"EMAIL": "Zaslat na email",
 			"NOVA": "Nová kalkulace",
-			"NOVATIP": "Klepnutím obnovíte výchozí stav formuláře pro novou kalkulaci."
+			"NOVATIP": "Vyresetuje formulář pro novou kalkulaci"
 		},
 		"SELECT" : {
 	        "DEFAULT": "Vyberte prosím z nabídky",
@@ -70,7 +70,7 @@
 		},	
 		"SPORTY": {
         	"LABEL": "Sporty",
-			"HINT": "<strong>Turistická</strong> - rekreační turistika, rekreační cesty a pobyty, studijní pobyt a stáže, administrativní práce nemanuálního charakteru.<br / ><strong>Pracovní</strong> - cesty a pobyt za účelem plnění pracovních úkolů zaměstnance i podnikatele, manuální práce, práce v provozech.",
+			"HINT": "Většina pojišťoven rozlišuje běžné a rizikové sporty, které je třeba připojistit. Některé si nechají připlatit i za zimní sporty (lyžování, snowboard).<br />Některé velmi rizikové aktivity jsou i tzv. \"nepojistitelné\" - věnujte proto velkou pozornost pojistným podmínkám, budete-li se na své výpravě provozovat nějaký rizikový sport, a přesvědčte se, že není vyloučen z pojištění!",
 			"REK": "Rekreační",
 			"ZIM": "Zimní",
 			"RIZ": "Rizikové"
