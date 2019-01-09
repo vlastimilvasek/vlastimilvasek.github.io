@@ -25,7 +25,12 @@
 	        	"TITLE": "Mám dost zástavy?",
 	        	"HINT": "Můžete za poskytnutý hypoteční úvěr ručit dostatečně vysokou zástavou, případně máte ručitele?"
 	        },
-	        "SROVNAT": "Srovnat nabídky"
+			"SROVNAT": "Srovnat nabídky",
+			"OFFERS_PDF": "Stáhnout v PDF",
+			"SDILENI": "Sdílet/uložit odkaz na tuto kalkulaci",
+			"EMAIL": "Zaslat na email",
+			"NOVA": "Nová kalkulace",
+			"NOVATIP": "Vyresetuje formulář pro novou kalkulaci"			
 		},
 		"SELECT" : {
 	        "DEFAULT": "Vyberte prosím z nabídky",
@@ -37,7 +42,8 @@
 	        "RADIOREQUIRED": "Vyberte prosím jednu z voleb.",
 	        "MAX": "Maximální hodnota je {{value}}.",
 	        "MIN": "Minimální hodnota je {{value}}.",
-	        "RANGE": "Povolená hodnota je {{min}} - {{max}}."
+			"RANGE": "Povolená hodnota je {{min}} - {{max}}.",
+			"EMAIL": "Zadejte prosím platnou emailovou adresu."
 		},
         "ANO": "Ano",
         "NE": "Ne",
@@ -53,7 +59,22 @@
 	        "REFI": "Refinancování",
 	        "AMER": "Americká hypotéka"
 		}
-    },
+	},
+    "MODAL": {   
+        "SDILENI": {
+			"TITLE": "Sdílejte srovnání hypoték",
+			"PLACEHOLDER": "Odkaz na tuto kalkulaci",
+			"TEXT": "Zkopírujte si odkaz na toto srovnání hypoték, abyste jej mohli snadno sdílet s&nbsp;ostatními nebo&nbsp;se&nbsp;k&nbsp;němu později sami vrátit."
+		},
+        "EMAIL": {
+			"TITLE": "Srovnání hypoték na email",
+			"LABEL": "Emailová adresa",
+			"PLACEHOLDER": "Vaše emailová adresa",
+			"SEND": "Odeslat",
+			"SENT": "Odesláno na Váš email.",
+			"TEXT": "Pošlete si odkaz na toto srovnání hypoték na Váš email, abyste&nbsp;s&nbsp;k&nbsp;němu mohli později vrátit."
+		}
+    },	
     "ZAMER": {
         "UVER": {    
 	        "LABEL": "Výše úvěru",
