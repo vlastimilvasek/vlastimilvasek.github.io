@@ -126,7 +126,8 @@
         	"TITLE": "Pojištění odpovědnosti",
         	"HINT": "Limit plnění pro pojištění odpovědnosti"
 		},
-		"CENATITLE": "Celková cena<br />počet osob: {{osob}}, počet dnů: {{dnu}}"
+		"CENATITLE": "Celková cena<br />počet osob: {{osob}}, počet dnů: {{dnu}}",
+		"CENA": "Celková cena"
     },    
     "FILTRY": {
     	"TITLE": "Filtry a nastavení<small class=\"hidden-sm-down text-muted\"> - přizpůsobte si zobrazení nabídek podle Vašich potřeb</small>",
