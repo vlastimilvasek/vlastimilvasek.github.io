@@ -1,0 +1,5 @@
+HYPOTEKY
+
+VERZE
+1.0.1 - odladìno na desktop i mobil, události do GA
+	TODO: srovnání do PDF, ošetøit chybové stavy odesílání emailù a komunikace se serverem
