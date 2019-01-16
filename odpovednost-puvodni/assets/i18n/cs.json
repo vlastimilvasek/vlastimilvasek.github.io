@@ -25,14 +25,7 @@
 	        "SROVNAT": "Srovnat nabídky pojišťoven",
 	        "ZPET": "Zpět",
 	        "DALE": "Pokračovat",
-			"SJEDNAT": "Sjednat",
-			"FILTRY": "Filtry",
-			"CLOSE": "Zavřít",
-			"OFFERS_PDF": "Stáhnout v PDF",
-			"SDILENI": "Sdílet/uložit odkaz na tuto kalkulaci",
-			"EMAIL": "Zaslat na email",
-			"NOVA": "Nová kalkulace",
-			"NOVATIP": "Vyresetuje formulář pro novou kalkulaci"			
+	        "SJEDNAT": "Sjednat"
 		},
 		"SELECT" : {
 	        "DEFAULT": "Vyberte prosím z nabídky",
@@ -40,12 +33,7 @@
 	        "NOTFOUND": "Žádná položka"	        
 		},
         "VALIDATION" : {
-	        "REQUIRED": "Vyplňte prosím toto pole.",
-	        "RADIOREQUIRED": "Vyberte prosím jednu z voleb.",
-	        "MAX": "Maximální hodnota je {{value}}.",
-	        "MIN": "Minimální hodnota je {{value}}.",
-			"RANGE": "Povolená hodnota je {{min}} - {{max}}.",
-			"EMAIL": "Zadejte prosím platnou emailovou adresu."
+	        "REQUIRED": "Vyplňte prosím toto pole."
 		},
         "ANO": "Ano",
         "NE": "Ne",
@@ -55,83 +43,33 @@
         "POJISTENI": {    
 	        "TITLE": "Jaký druh pojištění potřebujete?"
 		}
-	},
-	"FILTRY": {
-		"TITLE": "Filtry a nastavení",
-		"PARTNERS": "Pojišťovny",
-		"SELECT_ALL": "Vybrat vše",
-		"MIN_LIMITS": "Minimální limit plnění",
-		"ZDR": "Újma na zdraví a smrt:",
-		"MAJ": "Újma na věci, majetku:",
-		"SPOLUUC": "Spoluúčast",
-		"SPOL_NULL": "pouze bez spoluúčasti",
-		"SPOL_MAX": "Přípustná spoluúčast:",
-	    "TOOLS": {
-	    	"TITLE": "Nástroje",
-	    	"OFFERS_PDF": "Srovnání v PDF"
-	    }			
-	},
-    "MODAL": {   
-        "SDILENI": {
-			"TITLE": "Sdílejte kalkulaci pojištění odpovědnosti",
-			"PLACEHOLDER": "Odkaz na tuto kalkulaci",
-			"TEXT": "Zkopírujte si odkaz na tuto kalkulaci pojištění odpovědnosti, abyste ji mohli snadno sdílet s&nbsp;ostatními nebo&nbsp;se&nbsp;k&nbsp;ní později sami vrátit."
-		},
-        "EMAIL": {
-			"TITLE": "Kalkulace pojištění odpovědnosti na email",
-			"LABEL": "Emailová adresa",
-			"PLACEHOLDER": "Vaše emailová adresa",
-			"SEND": "Odeslat",
-			"SENT": "Odesláno na Váš email.",
-			"TEXT": "Pošlete si odkaz na tuto kalkulaci pojištění odpovědnosti na Váš email, abyste&nbsp;s&nbsp;k&nbsp;ní mohli později vrátit."
-		}
-    },	
+    },
     "SROVNANI": {
 	    "EXTRAS": {
 	    	"TITLE": "Připojištění",
 	    	"LIMIT_ZSV": "Ztráta svěřených věcí:"
-		},
-        "FILTRY": {
-        	"HINT": "pro lepší orientaci v nabídkách si můžete vyfiltrovat jen ty odpovídající Vašim potřebám."
-		},
-		"ZDR": {
-        	"TITLE": "Újma na zdraví/smrt",
-        	"HINT": "Limit plnění pro újmu na zdraví a smrt"
-        },
-        "MAJ": {
-        	"TITLE": "Újma na věci",
-        	"HINT": "Limit plnění pro újmu na věci"
-        },
-        "FU": {
-        	"TITLE": "Finanční újma",
-        	"HINT": "Limit plnění pro finanční újmu"
-        },
-        "NMU": {
-        	"TITLE": "Nemajetková újma",
-        	"HINT": "Limit plnění pro nemajetkovou újmu"
-		},
-        "PC": {
-        	"TITLE": "Pojistné částka",
-        	"HINT": "Limit pojistného plnění"
-        },
-        "SPOL": {
-        	"TITLE": "Spoluúčast",
-        	"HINT": ""
-        },
-        "UZPL": {
-        	"TITLE": "Územní platnost",
-        	"HINT": ""
-		},		
-		"KALKULUJI": "Počítám nabídky pojištění odpovědnosti. Prosím o chvilku strpení.",
-		"COLLAPSEHINT": "Kliknutím na logo zobrazíte/skryjete podrobnější informace o produktu.",		
+	    },	    
+	    "FILTERS": {
+	    	"TITLE": "Filtry a nastavení",
+	    	"PARTNERS": "Pojišťovny",
+	   		"SELECT_ALL": "Vybrat vše",
+	   		"MIN_LIMITS": "Minimální limit plnění",
+	   		"ZDR": "Újma na zdraví a smrt:",
+	   		"MAJ": "Újma na věci, majetku:",
+	   		"SPOLUUC": "Spoluúčast",
+	   		"SPOL_NULL": "pouze bez spoluúčasti",
+	   		"SPOL_MAX": "Přípustná spoluúčast:"
+	    },
+	    "TOOLS": {
+	    	"TITLE": "Nástroje",
+	    	"OFFERS_PDF": "Srovnání v PDF"
+	    },	    
 	    "BACK": "Upravit zadání",
         "ZAMODP": "odpovědnost zaměstnance",
         "OBODP": "občanská odpovědnost",
         "PARTNER": "Pojišťovna",
-        "PRODUKT": "Produkt/Varianta",
-		"SPLATKA": "Splátka",
-		"DOKUMENTY": "Dokumenty",
-		"PLATBY": "Možné platby"
+        "PRODUKT": "Produkt",
+        "SPLATKA": "Splátka"
     },    
     "POJISTKA": {
         "POJISTENI": {    
