@@ -67,9 +67,10 @@
 		},
         "DRUH": {    
             "TITLE": "Co potřebuje pojistit?",
-            "AUTO": "M1 - Osobní vůz",
-            "N1": "N1 - Užitkový vůz do 3,5t",
-            "MOTO": "Motocykl"
+            "AUTO": "M1 - Osobní",
+            "N1": "N1 - Užitkový",
+            "MOTO": "Motocykl",
+            "OSTATNI": "Jiné ..."
 		}
     },
 	"FILTRY": {
@@ -198,6 +199,10 @@
 		}										
     },
     "VOZIDLO": {
+        "DRUH": {    
+	        "LABEL": "Druh vozidla",
+	        "HINT": ""
+        },
         "ZNACKA": {    
 	        "LABEL": "Značka",
 	        "HINT": ""

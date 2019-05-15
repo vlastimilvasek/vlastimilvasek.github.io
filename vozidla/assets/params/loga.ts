@@ -3,6 +3,7 @@ export const LOGO_200x100 = {
     'AXA Assistance': 'https://www.srovnavac.cz/images/loga/200x100/axa-assist.png',
     'Slavia': 'https://www.srovnavac.cz/images/loga/200x100/slavia.png',
     'Colonnade': 'https://www.srovnavac.cz/images/loga/200x100/colonnade.png',
+    'ČPP': 'https://www.srovnavac.cz/images/loga/200x100/cpp.png',
     'ČSOB Pojišťovna': 'https://www.srovnavac.cz/images/loga/200x100/csob.png',
     'ČSOB': 'https://www.srovnavac.cz/images/loga/200x100/csob.png',
     'Direct': 'https://www.srovnavac.cz/images/loga/200x100/direct.png',

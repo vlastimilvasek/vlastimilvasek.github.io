@@ -1,3 +1,18 @@
+export const DRUH = [
+    { value: 1,  'label': 'Osobní vůz do 3500 kg - M1' },
+    { value: 11, 'label': 'Užitkový vůz do 3500 kg - N1' },
+    { value: 2,  'label': 'Motocykl' },
+    { value: 22, 'label': 'Čtyřkolka / tříkolka' },
+    { value: 3,  'label': 'Přípojné vozidlo, vozík' },
+    { value: 6,  'label': 'Obytný automobil do 8000 kg' },
+    { value: 7,  'label': 'Sanitní automobil' },
+    { value: 4,  'label': 'Autobus' },
+    { value: 5,  'label': 'Nákladní vozidlo' },
+    { value: 8,  'label': 'Tahač' },
+    { value: 9,  'label': 'Traktor s RZ' },
+    { value: 10, 'label': 'Traktor bez RZ' }
+];
+
 export const ROKY = [
     { value: 2019, 'label': '2019' },
     { value: 2018, 'label': '2018' },
