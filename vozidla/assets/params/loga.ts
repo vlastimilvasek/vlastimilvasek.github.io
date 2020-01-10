@@ -24,5 +24,6 @@ export const LOGO_200x100 = {
     'UniCredit': 'https://www.srovnavac.cz/images/loga/200x100/unicredit.png',
     'Sberbank': 'https://www.srovnavac.cz/images/loga/200x100/sberbank.png',
     'ČS': 'https://www.srovnavac.cz/images/loga/200x100/cs.png',
+    'PVZP': 'https://www.srovnavac.cz/images/loga/200x100/pvzp.png',    
     'a': ''
 };
